@@ -1,0 +1,75 @@
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-1 {
+  background-color: #E7F5DC;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 70px;
+  gap: 50px;
+}
+
+.nav-links a {
+  color: #728156;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #CFE1B9;
+}
+
+.fa-solid {
+  color: #728156;
+}
+
+.nav-links a .fa-solid:hover {
+  color: #CFE1B9;
+}
+
+.file-svg:hover rect {
+  stroke: #CFE1B9;
+}
+
+.file-svg:hover path {
+  stroke: #CFE1B9;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Style for mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu-icon {
+    display: flex;
+    font-size: 30px;
+    justify-content: flex-end;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+
+/* body */

@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "name": "webdonhang",
+  "version": "1.0.0",
+  "description": "br: #E6D9C1,\r br: #F8F4E1,\r text: #74512D,\r button: #9f703f,\r title: #7a4b3a,\r link: #543310",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build assets/css/input.css -o output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,45 @@
+
+
+.logo-footer {
+    width: 200px;
+    height: 200px;
+    /* text-align: center; */
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #728156;
+    font-size: 20px;
+}
+
+.link-footer:hover {
+    color: #CFE1B9;
+}
+
+.text {
+    color: #728156;
+    font-size: 20px;
+}
+
+.name-coffee {
+    color: #728156;
+    font-size: 28px;
+}
+
+.text-center.text-footer {
+    padding: 10px 0;
+}
+
+.backround-footer {
+    background-color: #E7F5DC;
+}
+
+.container {
+    color: #728156;
+    /* z-index: 10; */
+}
+
+.text-final {
+    font-size: 20px;
+}
+
