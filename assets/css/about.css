@@ -1,0 +1,183 @@
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-1 {
+  background-color: #F8F4E1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 70px;
+  gap: 50px;
+}
+
+.nav-links a {
+  color: #543310;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #E6D9C1;
+}
+
+.fa-solid {
+  color: #543310;
+}
+
+.nav-links a .fa-solid:hover {
+  color: #E6D9C1;
+}
+
+.file-svg:hover rect {
+  stroke: #E6D9C1;
+}
+
+.file-svg:hover path {
+  stroke: #E6D9C1;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Style for mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu-icon {
+    display: flex;
+    font-size: 30px;
+    justify-content: flex-end;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+
+/* css content */
+.about-section {
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.section-header{
+    margin-bottom: 50px;
+}
+.text1{
+    margin-top: 100px;
+    font-size: 22px;
+    color: #543310;
+    margin-left: 40px;
+}
+
+.about-intro {
+    margin-bottom: 50px;
+    display: flex;
+    margin-left: 230px;
+}
+
+.about-intro img {
+    border-radius: 10px;
+}
+.about-team{
+    margin-top: 50px;
+}
+.about-team img {
+    width: 150px;
+    height: 150px;
+}
+.member{
+    margin-top: 50px;
+    color: #543310;
+}
+.about-team h4 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.about-services {
+    background-color:#F8F4E1;
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 190px;
+    color: #543310;
+}
+
+.about-services h3 {
+    font-size: 30px;
+}
+
+.about-services i {
+    color:#543310;
+    margin-bottom: 10px;
+}
+
+.about-contact {
+    margin-top: 50px;
+    color: #543310;
+}
+
+.about-contact p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* FOOTER */
+.logo-footer {
+    width: 200px;
+    height: 200px;
+    /* text-align: center; */
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #543310;
+    font-size: 20px;
+}
+
+.link-footer:hover {
+    color: #E6D9C1;
+}
+
+.text {
+    color: #543310;
+    font-size: 20px;
+}
+
+.name-coffee {
+    color: #543310;
+    font-size: 28px;
+}
+
+.text-center.text-footer {
+    padding: 10px 0;
+}
+
+.backround-footer {
+    background-color: #F8F4E1;
+}
+
+.text-final {
+    font-size: 20px;
+}

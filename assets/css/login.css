@@ -1,0 +1,60 @@
+.login{
+    width: 100%;
+    margin-left: 630px;
+    border-radius: 20px;
+    margin-top: 200px;
+    border: 1px;
+    background-color: #F8F4E1;
+    width: 700px;
+    height: 450px;
+}
+.content{
+    margin-left: 100px;
+}
+h1{
+    margin-left: 140px;
+    color: #543310;
+    padding-top: 60px;
+    font-size: 50px;
+}
+label{
+    font-size: 25px;
+    color: #543310;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    width: 500px;
+    color: #543310;
+    font-size: 18px;
+}
+.sub{
+    border: none;
+    background-color: #E6D9C1;
+    padding: 10px 20px;
+    color: #543310;
+    font-size: 20px;
+    margin-left: 180px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.sub:hover{
+    background-color: #543310;
+    color: #F8F4E1;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 576px) {
+    .container {
+        padding: 20px; /* Reduce padding for small screens */
+    }
+
+    h3.text-center {
+        font-size: 20px; /* Smaller header font */
+    }
+
+    .btn-primary {
+        font-size: 14px; /* Adjust button font size */
+    }
+}

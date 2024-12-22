@@ -1,10 +1,283 @@
-.container{
-    width: 100%;
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-1 {
+  background-color: #F8F4E1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 70px;
+  gap: 50px;
+}
+
+.nav-links a {
+  color: #543310;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #E6D9C1;
+}
+.fa-solid {
+  color: #543310;
+}
+
+.nav-links a .fa-solid:hover {
+  color: #E6D9C1;
+}
+
+.file-svg:hover rect {
+  stroke: #E6D9C1;
+}
+
+.file-svg:hover path {
+  stroke: #E6D9C1;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Style for mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu-icon {
+    display: flex;
+    font-size: 30px;
+    justify-content: flex-end;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+
+/* BODY */
+.info{
+    width: 1700px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 100px;
 }
 h1{
     color:  #543310;
+    font-size: 50px;
 }
 p{
     color: #543310;
     font-size: 20px;
 }
+.explore-btn1{
+    background-color: #7a4b3a;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.explore-btn1:hover {
+    background-color: #E6D9C1;
+    color: #74512D;
+
+}
+.rounded{
+    width: 720px;
+    height: 500px;
+    margin-left: 70px;
+    border-radius: 30px;
+}
+.rounded:hover{
+    transform: scale(1.15);
+    transition: transform 0.9s ease;
+}
+
+
+
+/* PRODUCT */
+.product-section{
+    background-color: #F8F4E1;
+    width: 1600px;
+    margin-left: 150px;
+    padding: 50px 50px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.product-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 13px;
+    transition: transform 0.5s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+ .card-img-top{
+    padding: 20px 0px 0px 25px;
+ }
+ .card-img-top {
+    height: 300px;
+    width: 94%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+ .card-title{
+    color: #7a4b3a;
+    padding-top: 20px;
+    font-size: 27px;
+ }
+ .card-text{
+    padding-top: 10px;
+ }
+ .btn-order{
+    background-color: #7a4b3a;
+    color: white; 
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    transition: background-color 0.3s ease;
+ }
+ .btn-order:hover {
+    background-color: #E6D9C1;
+    color: #74512D;
+}
+
+
+
+/* KHAM PHA */
+.intro2{
+    margin-left: 140px;
+}
+.info2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* TANHUONG */
+.tanhuong{
+    width: 1500px;
+    margin-left: 200px;
+}
+.lead{
+    font-size: 22px;
+}
+.img-fluid:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+/* ANHCUAQUAN */
+.infor-coffee {
+    border: none;
+    background-color: #7a4b3a;
+    color: white;
+    border-radius: 13px;
+    font-size: 17px;
+    padding: 10px 20px;
+}
+
+.infor-coffee a {
+    text-decoration: none;
+    color: white;
+}
+
+.infor-coffee:hover {
+    background-color: #E6D9C1;
+    color: #74512D;
+}
+
+.infor-coffee:hover a {
+    color: #543310;
+}
+
+.text-center {
+    color: #543310;
+    padding-bottom: 30px;
+}
+
+.logo-gallery {
+    height: 130px;
+    width: 150px;
+    margin-left: 580px;
+}
+.rounded-circle:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+
+/*  */
+/* .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+} */
+
+
+/* FOOTER */
+
+
+.logo-footer {
+    width: 200px;
+    height: 200px;
+    /* text-align: center; */
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #543310;
+    font-size: 20px;
+}
+
+.link-footer:hover {
+    color: #E6D9C1;
+}
+
+.text {
+    color: #543310;
+    font-size: 20px;
+}
+
+.name-coffee {
+    color: #543310;
+    font-size: 28px;
+}
+
+.text-center.text-footer {
+    padding: 10px 0;
+}
+
+.backround-footer {
+    background-color: #F8F4E1;
+}
+
+.text-final {
+    font-size: 20px;
+}
+

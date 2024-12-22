@@ -1,0 +1,137 @@
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-1 {
+  background-color: #F8F4E1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 70px;
+  gap: 50px;
+}
+
+.nav-links a {
+  color: #543310;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #E6D9C1;
+}
+
+.fa-solid {
+  color: #543310;
+}
+
+.nav-links a .fa-solid:hover {
+  color: #E6D9C1;
+}
+
+.file-svg:hover rect {
+  stroke: #E6D9C1;
+}
+
+.file-svg:hover path {
+  stroke: #E6D9C1;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Style for mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu-icon {
+    display: flex;
+    font-size: 30px;
+    justify-content: flex-end;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+
+/* Gio hang */
+h1{
+    color: #543310;
+}
+
+.table thead tr th{
+    background-color:#F8F4E1;
+    border-color: #543310;
+    color: #543310;
+    width: 30px;
+}
+.btn-bill{
+    background-color: #F8F4E1;
+    color: #543310;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-continue{
+    background-color: #F8F4E1;
+    color: #543310;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* FOOTER */
+.logo-footer {
+    width: 200px;
+    height: 200px;
+    /* text-align: center; */
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #543310;
+    font-size: 20px;
+}
+
+.link-footer:hover {
+    color: #E6D9C1;
+}
+
+.text {
+    color: #543310;
+    font-size: 20px;
+}
+
+.name-coffee {
+    color: #543310;
+    font-size: 28px;
+}
+
+.text-center.text-footer {
+    padding: 10px 0;
+}
+
+.backround-footer {
+    background-color: #F8F4E1;
+}
+
+.text-final {
+    font-size: 20px;
+}
